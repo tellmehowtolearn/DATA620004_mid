@@ -24,7 +24,7 @@ conda activate yolov3-tf2-gpu
 python convert.py --weights ./data/yolov3.weights --output ./checkpoints/yolov3.tf
 ```
 
-那么可以新建出一个文件夹checkpoints并存放初始模型。在本次实验中我们采取VOC2007数据集进行模型的训练，首先在http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html下载好 [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)以便后面的训练。然后将下好的训练验证集解压到data文件夹放进voc2007_raw的文件夹。然后我们用 [tensorflow object detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)去转换数据集，可以根据这个网址提供的教程https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-models-install-coco去完成API的安装。
+那么可以新建出一个文件夹checkpoints并存放初始模型。在本次实验中我们采取VOC2007数据集进行模型的训练，首先在http://host.robots.ox.ac.uk/pascal/VOC/voc2007/index.html下载好 [training/validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar)以便后面的训练。然后将下好的训练验证集解压到data文件夹放进voc2007_raw的文件夹。然后我们用 [tensorflow object detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)去转换数据集，可以根据这个网址提供的教程https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html#tf-models-install-coco 去完成API的安装。
 
 然后我们执行如下代码来转换数据集：
 
