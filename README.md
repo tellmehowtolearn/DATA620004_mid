@@ -42,7 +42,7 @@ python tools/voc2012.py \
 
 
 
-转化好的数据集已经上传百度云网盘：
+转化好的数据集已经上传百度云网盘：https://pan.baidu.com/s/1ozTCBl5Mh_gsPYQYiQUluQ?pwd=735m
 
 最后完成了所有准备工作，再来进行模型的训练，由于原预训练模型yolov3有80个类，所以要在20个类上做迁移学习：
 
